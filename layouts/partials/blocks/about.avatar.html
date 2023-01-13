@@ -23,7 +23,9 @@
 {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
 
 <div id="profile">
-
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col">
   {{ if $avatar }}
   <div class="avatar-wrapper">
     {{ $avatar_image := $avatar.Fill "150x150 Center" }}
@@ -81,14 +83,18 @@
     </li>
     {{ end }}
   </ul>
-
-  {{ with ($block.content.text | emojify | markdownify) | default $person_page.Content }}
-  <div class="article-style pt-2 d-flex justify-content-center">
-    <div class="bio-text">
-      {{ . }}
-      prout
+      </div>
+         
+    {{ with ($block.content.text | emojify | markdownify) | default $person_page.Content }}
+      <div class="col">
+          <div class="article-style pt-2 d-flex justify-content-center">
+            <div class="bio-text">
+              {{ . }}
+              prout
+            </div>
+          </div>
+      </div>
+    {{ end }}
     </div>
   </div>
-  {{ end }}
-
 </div>
