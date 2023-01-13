@@ -11,7 +11,7 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
-      text: My research interests are computer science applied to ecology.{style="text-align: justify;"}
+      text: My research interests are computer science applied to ecology.
     design:
       columns: '2'
   - block: experience
