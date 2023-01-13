@@ -25,7 +25,7 @@
 <div id="profile">
   <div class="container">
     <div class="row justify-content-between">
-      <div class="col">
+      <div class="col-md-5">
   {{ if $avatar }}
   <div class="avatar-wrapper">
     {{ $avatar_image := $avatar.Fill "150x150 Center" }}
@@ -86,7 +86,7 @@
       </div>
          
     {{ with ($block.content.text | emojify | markdownify) | default $person_page.Content }}
-      <div class="col">
+      <div class="col-md-7">
           <div class="article-style pt-2 d-flex justify-content-center">
             <div class="bio-text">
               {{ . }}
