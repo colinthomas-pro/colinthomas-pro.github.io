@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Colin Thomas
 
 # Full name (for SEO)
 first_name: Colin
@@ -14,8 +14,8 @@ role: PhD in Computer Science
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Looking for a job
+    # url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
