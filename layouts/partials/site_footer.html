@@ -11,6 +11,10 @@
   {{ partial $footer_section_path . }}
 
   <p class="powered-by">
-    {{Published with {repo_link}wowchemy{/repo_link}}}
+    {{ $default := "Published with {wowchemy}." }}
+    {{ $i18n_published_with := i18n "published_with" | default $default }}
+    {{ $i18n_published_with = replace $i18n_published_with "{wowchemy}" "<a href=\"https://github.com/wowchemy/wowchemy-hugo-themes\" target=\"_blank\" rel=\"noopener\">Wowchemy</a>" | safeHTML }}
+    {{ $i18n_published_with | replaceRE "{year}" now.Year | markdownify | emojify | safeHTML }}
+    {{ end }}
   </p>
 </footer>
