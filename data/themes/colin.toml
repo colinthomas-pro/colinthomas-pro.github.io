@@ -7,11 +7,11 @@ name = "Colin"
 
   # Menu
   menu_primary = "#4caf50"
-  menu_text = "#F8EDE3"
+  menu_text = "#F5EFE6"
   menu_text_active = "#1b5e20"
-  menu_title = "#F8EDE3"
+  menu_title = "#F5EFE6"
 
   # Home sections
-  background = "#F8EDE3"
+  background = "#F5EFE6"
   home_section_odd = "#D8CEB9"
   home_section_even = "#C7BCA1"
