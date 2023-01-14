@@ -28,10 +28,10 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: PhD
-          company: [IBISC](https://www.ibisc.univ-evry.fr/) & [AMAP](https://amap.cirad.fr/fr/index.php)
+          company: [IBISC](https://www.ibisc.univ-evry.fr/) and [AMAP](https://amap.cirad.fr/fr/index.php)
           company_url: ''
           company_logo: ''
-          location: Evry & Montpellier, France
+          location: Evry and Montpellier, France
           date_start: '2019-11-01'
           date_end: '2022-10-31'
           description: Analyse de graphes état-transition d’écosystèmes
