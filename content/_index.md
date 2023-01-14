@@ -34,8 +34,7 @@ sections:
           location: Evry and Montpellier, France
           date_start: '2019-11-01'
           date_end: '2022-10-31'
-          description: Analyse de graphes état-transition d’écosystèmes
-à l’aide de model-checking
+          description: Analysis of state-transition graphs of ecosystems using model-checking
     design:
       columns: '2'
   - block: collection
