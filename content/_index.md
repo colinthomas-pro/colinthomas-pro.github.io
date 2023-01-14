@@ -27,27 +27,15 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: PhD
+          company: [IBISC](https://www.ibisc.univ-evry.fr/) & [AMAP](https://amap.cirad.fr/fr/index.php)
           company_url: ''
           company_logo: ''
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
-          description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: ''
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: Evry & Montpellier, France
+          date_start: '2019-11-01'
+          date_end: '2022-10-31'
+          description: Analyse de graphes état-transition d’écosystèmes
+à l’aide de model-checking
     design:
       columns: '2'
   - block: collection
