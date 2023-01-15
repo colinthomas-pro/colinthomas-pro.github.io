@@ -13,5 +13,5 @@ name = "Colin"
 
   # Home sections
   background = "#BAAF94"
-  home_section_odd = "#F6F2DD"
+  home_section_odd = "#F7F3E2"
   home_section_even = "#E4DAC2"
