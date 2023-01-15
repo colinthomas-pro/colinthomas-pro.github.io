@@ -3,7 +3,7 @@ name = "Colin"
 
 [light]
   # Primary
-  primary = "#28B02B"
+  primary = "#1FD723"
 
   # Menu
   menu_primary = "#4caf50"
@@ -13,5 +13,5 @@ name = "Colin"
 
   # Home sections
   background = "#BAAF94"
-  home_section_odd = "#F7F3E2"
-  home_section_even = "#E4DAC2"
+  home_section_odd = "#F9F6E8"
+  home_section_even = "#EAE2C8"
