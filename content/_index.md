@@ -13,6 +13,8 @@ sections:
       # Override your bio text from `authors/admin/_index.md`?
       text: My research interests are computer science applied to ecology.
     design:
+      spacing:
+        padding: ["20px", "0", "100px", "0"]
       background:
         image:
           # Name of image in `assets/media/`.
