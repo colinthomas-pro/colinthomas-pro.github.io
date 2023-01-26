@@ -12,6 +12,6 @@ name = "Colin"
   menu_title = "#9EAEFB"
 
   # Home sections
-  background = "#FFFBEC"
-  home_section_odd = "#FFFBEC"
+  background = "#FFFAF2"
+  home_section_odd = "#FFFAF2"
   home_section_even = "#EAE0CC"
