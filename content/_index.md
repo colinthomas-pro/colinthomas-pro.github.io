@@ -14,7 +14,7 @@ sections:
       text: My research interests are computer science applied to ecology.
     design:
       spacing:
-        padding: ["4%", "0", "12%", "0"]
+        padding: ["2%", "0", "10%", "0"]
       background:
         image:
           # Name of image in `assets/media/`.
