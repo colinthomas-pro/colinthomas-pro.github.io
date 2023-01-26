@@ -13,7 +13,11 @@ sections:
       # Override your bio text from `authors/admin/_index.md`?
       text: My research interests are computer science applied to ecology.
     design:
-      columns: '2'
+      css_style: '.background-img{
+    position: absolute;
+    bottom: 0px;
+    @media screen and (min-width: 768px){bottom: 70px;}
+  }'
   - block: experience
     id: experience
     content:
