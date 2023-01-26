@@ -11,5 +11,5 @@ main:
     url: 'publication/'
     weight: 30
   - name: CV
-    url: uploads/resume.pdf
+    url: uploads/CV_Colin_Thomas.pdf
     weight: 40
