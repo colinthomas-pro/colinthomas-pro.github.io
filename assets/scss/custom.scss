@@ -85,8 +85,8 @@ footer {
     opacity: 0;
     -webkit-animation: slide-from-right 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards;
           animation: slide-from-right 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards;
-    -webkit-animation-delay: 400ms;
-          animation-delay: 400ms;
+    -webkit-animation-delay: 250ms;
+          animation-delay: 250ms;
   }
   .portrait {
     -webkit-animation: slide-from-left 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards;
