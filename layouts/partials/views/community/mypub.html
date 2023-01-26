@@ -9,6 +9,12 @@
   <div class="article-metadata">
     {{ partial "page_metadata_authors" $item }}
   </div>
+  
+  {{ if $item.Params.publication_short }}
+    {{- $item.Params.publication_short | markdownify -}}.
+  {{ else if $item.Params.publication }}
+    {{- $item.Params.publication | markdownify -}}.
+  {{ end }}
 
   {{ if $has_attachments }}
   <div class="btn-links">
