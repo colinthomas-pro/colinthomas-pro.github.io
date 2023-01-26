@@ -8,6 +8,7 @@ footer {
 
 @-webkit-keyframes slide-from-right {
     0% {
+      opacity: 1;
       -webkit-transform: translateX(150%);
               transform: translateX(150%);
     }
@@ -18,6 +19,7 @@ footer {
   }
   @keyframes slide-from-right {
     0% {
+      opacity: 1;
       -webkit-transform: translateX(150%);
               transform: translateX(150%);
     }
@@ -28,6 +30,7 @@ footer {
   }
   @-webkit-keyframes slide-from-left {
     0% {
+      opacity: 1;
       -webkit-transform: translateX(-150%);
               transform: translateX(-150%);
     }
@@ -38,6 +41,7 @@ footer {
   }
   @keyframes slide-from-left {
     0% {
+      opacity: 1;
       -webkit-transform: translateX(-150%);
               transform: translateX(-150%);
     }
@@ -74,9 +78,10 @@ footer {
     margin: 20px 0 10px;
   }
   .bio-text {
-  -webkit-animation: slide-from-right 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+    opacity: 0;
+    -webkit-animation: slide-from-right 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards;
           animation: slide-from-right 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards;
-  -webkit-animation-delay: 400ms;
+    -webkit-animation-delay: 400ms;
           animation-delay: 400ms;
   }
   .portrait {
