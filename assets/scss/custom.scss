@@ -35,14 +35,14 @@ footer {
   animation-delay: 200ms;
   }
   .avatar-wrapper {
-    animation: slide-from-left 1s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+    animation: slide-from-left 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards;
   }
   .portrait-title {
-    animation: slide-from-left 1s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+    animation: slide-from-left 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards;
   }
   .network-icon {
     opacity: 0;
     animation: fade-in 1s forwards;
-    animation-delay: 1s;
+    animation-delay: 0.8s;
   }
 }
