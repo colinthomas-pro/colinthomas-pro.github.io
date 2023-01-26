@@ -14,7 +14,7 @@ sections:
       text: My research interests are computer science applied to ecology.
     design:
       spacing:
-        padding: ["10%", "0", "25%", "0"]
+        padding: ["5%", "0", "25%", "0"]
       background:
         image:
           # Name of image in `assets/media/`.
@@ -24,9 +24,6 @@ sections:
           # Image focal point. Options include `left`, `center` (default), or `right`.
           position: bottom
           parallax: false
-          filters:
-            # Darken the image? Range 0-1 where 1 is transparent and 0 is opaque.
-            brightness: 0.5
   - block: experience
     id: experience
     content:
