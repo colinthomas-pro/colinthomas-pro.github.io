@@ -8,6 +8,13 @@ footer {
 
 #profile{
   padding: 15px 10px;
+  .portrait-title h3 {
+    margin: 0 0 5px;
+    color: #333;
+  }
+  .portrait-title h2 {
+    margin: 10px 0 5px;
+  }
   @-webkit-keyframes slide-from-right {
     0% {
       -webkit-transform: translateX(150%);
