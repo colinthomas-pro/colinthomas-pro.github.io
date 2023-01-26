@@ -3,6 +3,7 @@
 
 <div class="view-list view-list-item">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  ({{- $item.Date.Format "2006" -}})
   <a href="{{$item.RelPermalink}}">({{$item.date}}) {{$item.Title}}</a>
 
   <span class="article-metadata li-cite-author">
