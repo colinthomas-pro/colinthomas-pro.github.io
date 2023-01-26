@@ -18,9 +18,9 @@ sections:
           # Name of image in `assets/media/`.
           filename: about_banner.png
           #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
-          size: cover
+          size: 100%
           # Image focal point. Options include `left`, `center` (default), or `right`.
-          position: center
+          position: bottom
           parallax: true
   - block: experience
     id: experience
