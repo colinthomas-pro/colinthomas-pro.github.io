@@ -11,9 +11,13 @@
   </div>
   
   {{ if $item.Params.publication_short }}
-    {{- $item.Params.publication_short | markdownify -}}.
+    <div class="article-metadata">
+    {{- $item.Params.publication_short | markdownify -}}
+    </div>
   {{ else if $item.Params.publication }}
-    {{- $item.Params.publication | markdownify -}}.
+    <div class="article-metadata">
+    {{- $item.Params.publication | markdownify -}}
+    </div>
   {{ end }}
 
   {{ if $has_attachments }}
