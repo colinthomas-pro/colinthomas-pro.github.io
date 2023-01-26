@@ -6,5 +6,16 @@ footer {
 }
 
 #profile{
-  background-color: red;
+  @keyframes slide-from-right {
+    0% {
+      transform: translateX(150%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  .bio-text{
+  animation: slide-from-right 1s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+  animation-delay: 100ms;
+  }
 }
