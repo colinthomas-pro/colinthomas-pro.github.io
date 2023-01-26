@@ -14,7 +14,7 @@ sections:
       text: My research interests are computer science applied to ecology.
     design:
       spacing:
-        padding: ["40px", "0", "200px", "0"]
+        padding: ["10%", "0", "200px", "25%"]
       background:
         image:
           # Name of image in `assets/media/`.
@@ -26,7 +26,7 @@ sections:
           parallax: false
           filters:
             # Darken the image? Range 0-1 where 1 is transparent and 0 is opaque.
-            brightness: 0.8
+            brightness: 0.5
   - block: experience
     id: experience
     content:
