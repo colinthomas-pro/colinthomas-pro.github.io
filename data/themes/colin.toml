@@ -6,10 +6,10 @@ name = "Colin"
   primary = "#25BBBA"
 
   # Menu
-  menu_primary = "#68A7AD"
-  menu_text = "#fff"
-  menu_text_active = "#325C75"
-  menu_title = "#fff"
+  menu_primary = "#325C75"
+  menu_text = "#68A7AD"
+  menu_text_active = "#fff"
+  menu_title = "#F6F3E3"
 
   # Home sections
   background = "#F6F3E3"
