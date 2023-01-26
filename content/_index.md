@@ -55,6 +55,10 @@ sections:
         folders:
           - publication
         featured_only: true
+      archive:
+        enable: true
+        text: See all my publications
+        link: publication/
     design:
       columns: '2'
       view: list
