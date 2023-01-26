@@ -6,16 +6,7 @@ footer {
   left:0;
 }
 
-#profile{
-  padding: 15px 10px;
-  .portrait-title h3 {
-    margin: 0 0 5px;
-    color: #666;
-  }
-  .portrait-title h2 {
-    margin: 20px 0 10px;
-  }
-  @-webkit-keyframes slide-from-right {
+@-webkit-keyframes slide-from-right {
     0% {
       -webkit-transform: translateX(150%);
               transform: translateX(150%);
@@ -71,6 +62,17 @@ footer {
       opacity: 1;
     }
   }
+
+
+#profile{
+  padding: 15px 10px;
+  .portrait-title h3 {
+    margin: 0 0 5px;
+    color: #666;
+  }
+  .portrait-title h2 {
+    margin: 20px 0 10px;
+  }
   .bio-text {
   -webkit-animation: slide-from-right 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards;
           animation: slide-from-right 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards;
@@ -96,4 +98,10 @@ footer {
     width: auto; // Match image size in about.avatar widget
     height: auto;
   }
+}
+
+
+.experience .row{
+  -webkit-animation: slide-from-right 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+          animation: slide-from-right 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards;
 }
