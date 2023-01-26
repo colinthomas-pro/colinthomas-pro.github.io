@@ -21,6 +21,7 @@ sections:
           size: cover
           # Image focal point. Options include `left`, `center` (default), or `right`.
           position: center
+          parallax: true
   - block: experience
     id: experience
     content:
