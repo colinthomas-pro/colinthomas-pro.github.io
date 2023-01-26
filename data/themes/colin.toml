@@ -6,13 +6,12 @@ name = "Colin"
   primary = "#18B91B"
 
   # Menu
-  menu_primary = "#4caf50"
+  menu_primary = "#68A7AD"
   menu_text = "#fff"
   menu_text_active = "#1b5e20"
   menu_title = "#fff"
 
   # Home sections
-  footer = "#BAAF94"
   background = "#F9F6E8"
   home_section_odd = "#F9F6E8"
   home_section_even = "#EAE2C8"
