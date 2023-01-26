@@ -6,9 +6,9 @@
   ({{- $item.Date.Format "2006" -}})
   <a href="{{$item.RelPermalink}}">{{ $item.Title }}</a>
 
-  <span class="article-metadata li-cite-author">
+  <div class="article-metadata">
     {{ partial "page_metadata_authors" $item }}
-  </span>
+  </div>
 
   {{ if $has_attachments }}
   <div class="btn-links">
