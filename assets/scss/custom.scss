@@ -1,3 +1,4 @@
+
 footer {
   margin: 3rem 0 0;
   background: #D0C6A9;
@@ -6,20 +7,52 @@ footer {
 }
 
 #profile{
-  @keyframes slide-from-right {
+  @-webkit-keyframes slide-from-right {
     0% {
-      transform: translateX(150%);
+      -webkit-transform: translateX(150%);
+              transform: translateX(150%);
     }
     100% {
-      transform: translateX(0%);
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+    }
+  }
+  @keyframes slide-from-right {
+    0% {
+      -webkit-transform: translateX(150%);
+              transform: translateX(150%);
+    }
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+    }
+  }
+  @-webkit-keyframes slide-from-left {
+    0% {
+      -webkit-transform: translateX(-150%);
+              transform: translateX(-150%);
+    }
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
     }
   }
   @keyframes slide-from-left {
     0% {
-      transform: translateX(-150%);
+      -webkit-transform: translateX(-150%);
+              transform: translateX(-150%);
     }
     100% {
-      transform: translateX(0%);
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+    }
+  }
+  @-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
     }
   }
   @keyframes fade-in {
@@ -31,18 +64,24 @@ footer {
     }
   }
   .bio-text {
-  animation: slide-from-right 1s cubic-bezier(0.87, 0, 0.13, 1) forwards;
-  animation-delay: 200ms;
+  -webkit-animation: slide-from-right 1s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+          animation: slide-from-right 1s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
   }
   .avatar-wrapper {
-    animation: slide-from-left 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+    -webkit-animation: slide-from-left 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+            animation: slide-from-left 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards;
   }
   .portrait-title {
-    animation: slide-from-left 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+    -webkit-animation: slide-from-left 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+            animation: slide-from-left 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards;
   }
   .network-icon {
     opacity: 0;
-    animation: fade-in 1s forwards;
-    animation-delay: 0.8s;
+    -webkit-animation: fade-in 1s forwards;
+            animation: fade-in 1s forwards;
+    -webkit-animation-delay: 0.8s;
+            animation-delay: 0.8s;
   }
 }
