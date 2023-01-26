@@ -27,6 +27,7 @@
     <div class="row justify-content-between", vertical-align="middle">
       <div class="col-md-5">
   {{ if $avatar }}
+  <div class="portrait">
   <div class="avatar-wrapper">
     {{ $avatar_image := $avatar.Fill "150x150 Center" }}
     <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}"
@@ -57,6 +58,7 @@
       {{ if .url }}</a>{{ end }}
     </h3>
     {{ end }}
+  </div>
   </div>
 
   <ul class="network-icon" aria-hidden="true">
