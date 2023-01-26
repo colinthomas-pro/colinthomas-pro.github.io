@@ -3,13 +3,13 @@ name = "Colin"
 
 [light]
   # Primary
-  primary = "#98A8F8" #"#25BBBA"
+  primary = "#1FAEAD"
 
   # Menu
   menu_primary = "#325C75"
-  menu_text = "#98A8F8"
+  menu_text = "#9EAEFB"
   menu_text_active = "#fff"
-  menu_title = "#EAE2C8"
+  menu_title = "#ddd"
 
   # Home sections
   background = "#F6F3E3"
