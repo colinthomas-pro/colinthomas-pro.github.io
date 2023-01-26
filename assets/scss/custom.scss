@@ -69,11 +69,7 @@ footer {
   -webkit-animation-delay: 200ms;
           animation-delay: 200ms;
   }
-  .avatar-wrapper {
-    -webkit-animation: slide-from-left 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards;
-            animation: slide-from-left 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards;
-  }
-  .portrait-title {
+  .portrait {
     -webkit-animation: slide-from-left 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards;
             animation: slide-from-left 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards;
   }
