@@ -61,5 +61,5 @@ sections:
         link: publication/
     design:
       columns: '2'
-      view: list
+      view: community/mypub
 ---
