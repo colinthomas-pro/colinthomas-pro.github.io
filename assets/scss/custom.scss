@@ -80,4 +80,8 @@ footer {
     -webkit-animation-delay: 0.9s;
             animation-delay: 0.9s;
   }
+  .avatar-wrapper {
+  width: auto; // Match image size in about.avatar widget
+  height: auto;
+  }
 }
