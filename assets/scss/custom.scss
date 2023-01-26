@@ -14,8 +14,35 @@ footer {
       transform: translateX(0%);
     }
   }
-  .bio-text{
+  @keyframes slide-from-left {
+    0% {
+      transform: translateX(-150%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .bio-text {
   animation: slide-from-right 1s cubic-bezier(0.87, 0, 0.13, 1) forwards;
   animation-delay: 100ms;
+  }
+  .avatar-wrapper {
+    animation: slide-from-left 1s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+  }
+  .portrait-title {
+    animation: slide-from-left 1s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+  }
+  .network-icon {
+    opacity: 0;
+    animation: fade-in 1s forwards;
+    animation-delay: 1.5s;
   }
 }
