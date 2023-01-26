@@ -24,6 +24,9 @@ sections:
           # Image focal point. Options include `left`, `center` (default), or `right`.
           position: bottom
           parallax: false
+          filters:
+            # Darken the image? Range 0-1 where 1 is transparent and 0 is opaque.
+            brightness: 0.8
   - block: experience
     id: experience
     content:
