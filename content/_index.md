@@ -13,11 +13,14 @@ sections:
       # Override your bio text from `authors/admin/_index.md`?
       text: My research interests are computer science applied to ecology.
     design:
-      css_style: '.background-img{
-    position: absolute;
-    bottom: 0px;
-    @media screen and (min-width: 768px){bottom: 70px;}
-  }'
+      background:
+        image:
+          # Name of image in `assets/media/`.
+          filename: about_banner.png
+          #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+          size: cover
+          # Image focal point. Options include `left`, `center` (default), or `right`.
+          position: center
   - block: experience
     id: experience
     content:
