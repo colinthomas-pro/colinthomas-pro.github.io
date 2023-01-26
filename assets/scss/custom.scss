@@ -81,7 +81,14 @@ footer {
             animation-delay: 0.9s;
   }
   .avatar-wrapper {
-  width: auto; // Match image size in about.avatar widget
-  height: auto;
+    width: auto; // Match image size in about.avatar widget
+    height: auto;
+  }
+  .wg-about-avatar {
+  // Custom avatar size on homepage
+  .avatar {
+    width: 400px;
+    height: 400px;
+    }
   }
 }
