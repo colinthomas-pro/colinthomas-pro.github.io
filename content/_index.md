@@ -38,10 +38,7 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: PhD
-          company: 
-            -IBISC
-            -AMAP
-          company_url: https://amap.cirad.fr/fr/index.php
+          companies: [ {name="IBISC", url="https://amap.cirad.fr/fr/index.php"}, {name="AMAP", url="https://amap.cirad.fr/fr/index.php"}]
           company_logo: ''
           location: Evry and Montpellier, France
           date_start: '2019-11-01'
