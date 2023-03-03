@@ -38,11 +38,12 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: PhD
-          companies: [ {name="IBISC", url="https://amap.cirad.fr/fr/index.php"}, {name="AMAP", url="https://amap.cirad.fr/fr/index.php"}]
+          company: IBISC and AMAP
+          company_url: https://amap.cirad.fr/fr/index.php
           company_logo: ''
           location: Evry and Montpellier, France
           date_start: '2019-11-01'
-          date_end: '2022-10-31'
+          date_end: '2022-12-12'
           description: Analysis of state-transition graphs of ecosystems using model-checking
     design:
       columns: '2'
