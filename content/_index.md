@@ -37,8 +37,8 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: PhD
-          company: IBISC and [AMAP](https://amap.cirad.fr/fr/index.php)
+        - title: {{< icon name="graduation-cap" pack="fas" >}} PhD
+          company: [IBISC](https://www.ibisc.univ-evry.fr/) and [AMAP](https://amap.cirad.fr/fr/index.php)
           company_logo: ''
           location: Evry and Montpellier, France
           date_start: '2019-11-01'
