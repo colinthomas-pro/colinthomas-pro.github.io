@@ -11,7 +11,11 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
-      text: My research interests are computer science applied to ecology.
+      text: |-
+        My research interests are computer science applied to ecology.
+        My favorite subject is the use of computer science to assist ecosystem management.
+        I believe that computer models can help us better understand ecological successions and community assembly by formalising their branching behaviour.
+        I am both interested in formal ecological theories and practical applications. 
     design:
       spacing:
         padding: ["3%", "0", "11%", "0"]
