@@ -15,7 +15,7 @@ sections:
         My research interests are computer science applied to ecology.
         My favorite subject is the use of computer science to assist ecosystem management.
         I believe that computer models can help us better understand ecological successions and community assembly by formalising their branching behaviour.
-        I am both interested in formal ecological theories and in practical applications. 
+        I am interested in both formal theories and practical applications. 
     design:
       spacing:
         padding: ["3%", "0", "11%", "0"]
